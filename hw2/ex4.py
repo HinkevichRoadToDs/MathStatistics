@@ -26,7 +26,6 @@ P1_all_and_0 = P1_all * (comb(2,2) / comb(2,11))
 P2_0_and_all = P2_all * (comb(2,3) / comb(2,10))
 P_only_two = P1_all_and_0 + P2_0_and_all + P1_1*P2_1
 
-
 # третий вопрос
 # Р того, что 1 или более мячей белые
 P_atleast_1_white = 1 - ((1 / comb(2,10)) * (1 / comb(2,11)))
